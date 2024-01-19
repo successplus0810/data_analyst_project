@@ -1,0 +1,10 @@
+2024-01-10 09:44:56,618 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 2.9.0, Python Version: 3.9.7, Platform: Windows-10-10.0.19045-SP0
+2024-01-10 09:44:56,618 - snowflake.connector.connection - INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+2024-01-10 09:44:56,618 - snowflake.connector.connection - INFO - Setting use_openssl_only mode to False
+2024-01-10 09:45:01,093 - root - INFO - -----------------------------------START CHECK COLUMN-----------------------------------------------------
+2024-01-10 09:45:01,112 - snowflake.connector.cursor - INFO - query: [WITH QTY_JOIN AS (SELECT DISTINCT  a.* , CASE WHEN D.clm_end IS NOT NULL THEN co...]
+2024-01-10 09:45:05,390 - snowflake.connector.cursor - INFO - query execution done
+2024-01-10 09:45:05,390 - snowflake.connector.cursor - INFO - Number of results in first chunk: 18
+2024-01-10 09:45:06,805 - root - INFO - ----------------------------------DONE CHECK COLUMN------------------------------------------------------------------
+2024-01-10 09:45:06,991 - snowflake.connector.connection - INFO - closed
+2024-01-10 09:45:06,992 - snowflake.connector.connection - INFO - No async queries seem to be running, deleting session
